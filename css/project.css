@@ -1,0 +1,314 @@
+.projects{
+    margin: 4em 2em;
+}
+
+.anim3d{
+    width: 100%;
+    background-color: rgb(243, 240, 235);
+    height: 900px;
+}
+
+.design{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(243, 240, 235);
+    margin-top: 5em;
+}
+.lumière{
+    width: 100%;
+    height: 900px;
+    background-color:rgb(243, 240, 235);
+}
+
+h3{
+    font-size: 48px;
+    color: rgba(147, 87, 140, 0.727);
+    font-style: bold;
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.container > div {
+    background-color: rgb(32, 12, 26);
+    width: 300px;
+    height: 300px;
+}
+
+.pic {
+    width: 100%;
+    aspect-ratio: 9 / 9;
+    object-fit: cover;
+}
+
+.text-3d{
+    
+    color: rgb(107, 100, 108);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.text-texto{
+     margin: 3em 2em;
+}
+
+.text2-3d{
+    color: rgb(127, 125, 127);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.text3-3d{
+    color: rgb(139, 135, 140);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.text4-3d{
+    color: rgb(158, 138, 158);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(83, 37, 82);
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 1em 2em;
+    transition: 1s;
+}
+
+.button1{
+    
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 130px;
+        
+}
+
+.button:hover{
+    background-color: rgb(253, 194, 77);
+     color: blueviolet;
+}
+
+@media screen and (max-width: 800px) {
+    .buttton{
+        font-size: 18px;
+    }
+    .anim3d{
+        height: 1500px;
+    }
+    .button1{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .anim3d{
+        height: 2000px;
+    }
+}
+
+h4{
+    font-size: 48px;
+    color: rgba(147, 87, 140, 0.727);
+    font-style: bold;
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.text-lum{
+    
+    color: rgb(107, 100, 108);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.projet-lum{
+    margin: 3em 2em;
+}
+
+.text2-lum{
+    color: rgb(127, 125, 127);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.text3-lum{
+    color: rgb(139, 135, 140);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.button00{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(83, 37, 82);
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 1em 2em;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.button2{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 130px;
+    
+}
+
+.button00:hover{
+    background-color: rgb(253, 194, 77);
+     color: blueviolet;
+}
+
+
+@media screen and (max-width: 800px) {
+    .buttton00{
+        font-size: 18px;
+    }
+    .lumière{
+        height: 1500px;
+    }
+    .button2{
+        display: flex;
+        justify-content: center;
+    }
+    .design{
+        height: 1500px;
+    }
+    .text2-lum{
+        font-size: 19px;
+    }
+    .text3-lum{
+        font-size: 19px;
+    }
+}
+
+h5{
+    font-size: 48px;
+    color: rgba(147, 87, 140, 0.727);
+    font-style: bold;
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 800px) {
+    .buttton00{
+        font-size: 18px;
+    }
+    .lumière{
+        height: 1200px;
+    }
+}
+
+
+.c0ntainer{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+}
+
+
+
+.c0ntainer > div {
+    background-color: rgb(32, 12, 26);
+    width: 300px;
+    height: 300px;
+}
+
+.fat {
+    width: 100%;
+    aspect-ratio: 9 / 9;
+    object-fit: cover;
+}
+
+.text-crea{
+    
+    color: rgb(107, 100, 108);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.crea{
+    margin: 3em 2em;
+}
+
+.text2-crea{
+    color: rgb(127, 125, 127);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.text3-crea{
+    color: rgb(139, 135, 140);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.text5-crea{
+    color: rgb(122, 97, 128);
+    font-size: 20px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text6-crea{
+    color: rgb(113, 80, 121);
+    font-size: 20px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+
+}
+
+

@@ -1,0 +1,139 @@
+@import url('carte.css');
+@import url(button.css);
+@import url(project.css);
+@import url(slide.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+h2{
+    font-size: 50px;
+}
+
+li{
+    font-size: 20px;
+    transition: 1s;
+}
+
+li:hover{
+    color: coral;
+    font-size: 25px;
+   
+}
+
+nav{
+    border-bottom: 3px solid rgb(47, 2, 56);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4a7f1;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+@media screen and (max-width: 700px) {
+    ul{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+   nav{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+   } 
+}
+
+main{
+    height: 400px;
+    background-color: #f6c6f4e9;;
+    margin-top: 50px;
+}
+
+.cube1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(47, 40, 46);
+}
+
+main:hover .cube1{
+    animation-name: soko ;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+
+@keyframes soko{
+    0%{
+        transform: translateX(0) translateY(0);
+
+    }
+
+    40%{
+        transform: translateX(400px) translateY(0);
+        background-color: rgb(84, 38, 81);
+    }
+
+    70%{
+        transform: translateX(400px) translateY(250px);
+        background-color: rgb(169, 19, 142);
+    }
+
+    100%{
+        transform: translateX(900px) translateY(250px);
+        background-color: rgb(141, 112, 136);
+    }
+}
+
+.cube2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(47, 40, 46);
+    margin-left: auto;
+}
+
+main:hover .cube2{
+    animation-name: sokoo ;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+
+}
+
+@keyframes sokoo{
+    0%{
+        transform: translateX(0) translateY(0);
+
+    }
+
+    50%{
+        transform: translateX(-400px) translateY(0);
+        background-color: rgb(84, 38, 81);
+    }
+
+    100%{
+        transform: translateX(-400px) translateY(-150px);
+        background-color: rgb(141, 112, 136);
+    }
+}
+
+.myself{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}

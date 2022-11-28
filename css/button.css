@@ -1,0 +1,35 @@
+.découvrir{
+    background-color: #f5b2f3ef;
+    text-decoration: none;
+    padding: 2em 4em;
+}
+
+.button0{
+    font-size: 25px;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    color: rgb(51, 50, 50);
+    padding: 4px 4px;
+    font-style: bold;
+}
+
+
+.flechette{
+    display: block;
+    margin: 2px auto;
+    animation: 3s infinite linear rebond;
+    aspect-ratio: 9 / 9;
+}
+
+@keyframes rebond{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
